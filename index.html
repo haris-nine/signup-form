@@ -6,11 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Sign Up Form</title>
-  
-  <!-- HTML -->
-  
-
-  <!-- Custom Styles -->
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -24,48 +19,50 @@
   </section>
 
     <main id="main">
-  	<section id="heading">
-  		<h1>Join the Mage's Association and register as a Mage. Perhaps one day you'll reach <em>The Root</em>.</h1>
-  		<p>You know you <em>want</em> to.</p>
-  	</section>
-  	<form action="#" method="POST">
-  		<legend>Let's do this!</legend>
-  			<fieldset>
-    			<div class="field">
-  				<label for="firstName">First Name:</label>
-  				<input type="text" id="firstName" name="firstName" required>
-  			</div>
-  			<div class="field">
-   				<label for="lastName">Last Name:</label>
-  				<input type="text" id="lastName" name="lastName" required>
-  			</div>
-   			</fieldset>
-  			<fieldset>
-    			<div class="field">
-  				<label for="userEmail">Email:</label>
-  				<input type="email" id="userEmail" name="userEmail" required>
-  			</div>
-  			<div class="field">
-   				<label for="phone">Phone Number:</label>
-  				<input type="tel" id="phone" name="phone" required>
-  			</div>
-   			</fieldset>
-   			<fieldset>
-    			<div class="field">
-  				<label for="pass">Password:</label>
-  				<input type="password" minlength="8" id="pass" name="pass" required>
-  			</div>
-  			<div class="field">
-   				<label for="rePass">Repeat Password:</label>
-  				<input type="password" minlength="8" id="rePass" name="rePass" required>
-  			</div>
-   			</fieldset>
-   			<input type="submit" id="submit-form" class="hidden"/>
-  	</form>
-  	<div class="submit">
-  		<label id="btn" for="submit-form" tabindex="0">Join the Association</label>
-  		<p id="log-in">Already joined? <a href="#">Log in</a></p>
-  	</div>
+  	  <div id="sign-up">
+        <section id="heading">
+          <h1>Join the Mage's Association and register as a Mage. Perhaps one day you'll reach <em>The Root</em>.</h1>
+          <p>You know you <em>want</em> to.</p>
+        </section>
+        <form action="#" method="POST">
+          <legend>Let's do this!</legend>
+            <fieldset>
+              <div class="field">
+              <label for="firstName">First Name:</label>
+              <input type="text" id="firstName" name="firstName" required>
+            </div>
+            <div class="field">
+               <label for="lastName">Last Name:</label>
+              <input type="text" id="lastName" name="lastName" required>
+            </div>
+             </fieldset>
+            <fieldset>
+              <div class="field">
+              <label for="userEmail">Email:</label>
+              <input type="email" id="userEmail" name="userEmail" required>
+            </div>
+            <div class="field">
+               <label for="phone">Phone Number:</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+             </fieldset>
+             <fieldset>
+              <div class="field">
+              <label for="pass">Password:</label>
+              <input type="password" minlength="8" id="pass" name="pass" required>
+            </div>
+            <div class="field">
+               <label for="rePass">Repeat Password:</label>
+              <input type="password" minlength="8" id="rePass" name="rePass" required>
+            </div>
+             </fieldset>
+             <input type="submit" id="submit-form" class="hidden"/>
+        </form>
+        <div class="submit">
+          <label id="btn" for="submit-form" tabindex="0">Join the Association</label>
+          <p id="log-in">Already joined? <a href="#">Log in</a></p>
+        </div>
+      </div>
   	</main>
 </body>
 </html>

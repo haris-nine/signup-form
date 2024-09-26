@@ -23,6 +23,9 @@ em {
 	font-family: openSans-italic;
 }
 
+html, body {
+    height:100%;
+} 
 
 body {
     display: flex;
@@ -34,7 +37,7 @@ body {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-image: url("images/side-banner.jpg");
-	flex: 1.1;
+	flex: 1.2;
 	position: relative;
 	display: flex;
 	align-items: stretch;
@@ -78,6 +81,9 @@ u {
 	flex: 2;
 	background-color: #F9FAFB;
 	padding-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 h1 {
@@ -101,7 +107,7 @@ form {
 fieldset {
 	display: flex;
 	border: none;
-	gap: 60px;
+	gap: 80px;
 	margin-top: 15px;
 }
 
